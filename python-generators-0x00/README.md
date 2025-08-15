@@ -1,0 +1,1 @@
+this is a program to create a mysql database and run some sql queries t add sample data to a database
