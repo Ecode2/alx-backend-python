@@ -50,3 +50,5 @@ def insert_data(connection: MySQLConnection, data: str):
             csv_data: Tuple = tuple(csv.reader(sample_data))
 
             cursor.executemany("INSERT INTO user_data (name, email, age) VALUES (%s, %s, %f,)", csv_data[0:])
+
+
